@@ -16,7 +16,7 @@ variable "aws_region" {
   default     = "us-west-2"
 }
 
-# Ubuntu  12.04 LTS (x64)
+# Ubuntu amis
 variable "aws_amis" {
   default = {
     us-west-1 = "ami-0928f4202481dfdf6"
